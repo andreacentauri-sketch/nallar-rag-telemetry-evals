@@ -1,0 +1,42 @@
+[
+  {
+    "id": "E01",
+    "query": "Which NALLAR component uses a typed FastAPI streaming route and Ollama localhost?",
+    "expected_doc_id": "offline_llm"
+  },
+  {
+    "id": "E02",
+    "query": "Which project exposes stdio JSON RPC tools resources and prompts?",
+    "expected_doc_id": "mcp_server"
+  },
+  {
+    "id": "E03",
+    "query": "How are documents chunked and ranked using deterministic BM25?",
+    "expected_doc_id": "rag_pipeline"
+  },
+  {
+    "id": "E04",
+    "query": "Where is the SHA256 query hash stored while raw query text is not persisted?",
+    "expected_doc_id": "telemetry"
+  },
+  {
+    "id": "E05",
+    "query": "Which evaluation uses recall at k and mean reciprocal rank MRR?",
+    "expected_doc_id": "evaluation"
+  },
+  {
+    "id": "E06",
+    "query": "What principle says ClaimStrength must not exceed EvidenceStrength?",
+    "expected_doc_id": "evidence"
+  },
+  {
+    "id": "E07",
+    "query": "Which future system coordinates planner researcher evaluator and synthesis roles?",
+    "expected_doc_id": "agents"
+  },
+  {
+    "id": "E08",
+    "query": "Which future workstream combines speech input and study coaching?",
+    "expected_doc_id": "voice"
+  }
+]

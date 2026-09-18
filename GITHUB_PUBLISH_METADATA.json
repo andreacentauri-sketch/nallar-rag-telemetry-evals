@@ -1,0 +1,16 @@
+{
+  "github_description": "Deterministic BM25 RAG with privacy-aware telemetry and offline evaluation. Recall@1 1.00, Recall@3 1.00, MRR 1.00 on bundled 8-query eval set; 12/12 tests.",
+  "github_topics": [
+    "rag",
+    "information-retrieval",
+    "bm25",
+    "evaluation",
+    "telemetry",
+    "python",
+    "llm"
+  ],
+  "license": "MANUAL_SELECTION_REQUIRED",
+  "recommended_pin": true,
+  "repository_name": "nallar-rag-telemetry-evals",
+  "visibility": "public_after_manual_security_review"
+}

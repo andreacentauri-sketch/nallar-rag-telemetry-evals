@@ -1,0 +1,42 @@
+[
+  {
+    "doc_id": "offline_llm",
+    "title": "NALLAR Offline LLM Application",
+    "text": "NALLAR is a local first offline LLM application. Its typed FastAPI streaming route accepts MessageInput content and the local model adapter can use Ollama on localhost. The architecture separates API orchestration from the local LLM adapter and preserves explicit source identity."
+  },
+  {
+    "doc_id": "mcp_server",
+    "title": "NALLAR MCP Server",
+    "text": "The NALLAR MCP portfolio server uses stdio JSON RPC 2.0 messages. It supports initialize and ping plus tools resources and prompts. Read only tools include nallar health, nallar roadmap, and nallar package manifest. The server keeps agent tool access separate from canonical application internals."
+  },
+  {
+    "doc_id": "rag_pipeline",
+    "title": "RAG Retrieval Pipeline",
+    "text": "The retrieval augmented generation pipeline chunks documents, tokenizes text, builds a deterministic BM25 index, ranks chunks for each query, and creates a context pack. Retrieval is local and deterministic so the evaluation harness can reproduce rankings without an external embedding service."
+  },
+  {
+    "doc_id": "telemetry",
+    "title": "Privacy Preserving Telemetry",
+    "text": "Retrieval telemetry stores a SHA256 query hash, query length, latency, requested k, result document identifiers, and result chunk identifiers. The raw query is not persisted. This supports observability while reducing exposure of user text in telemetry logs."
+  },
+  {
+    "doc_id": "evaluation",
+    "title": "Retrieval Evaluation",
+    "text": "The evaluation harness measures recall at one, recall at k, and mean reciprocal rank MRR against an offline labeled evaluation set. Gate thresholds require strong retrieval coverage and reproducible metrics before the evaluation milestone can pass."
+  },
+  {
+    "doc_id": "evidence",
+    "title": "Evidence Discipline",
+    "text": "NALLAR follows ClaimStrength less than or equal to EvidenceStrength. Architecture does not prove runtime capability, implementation does not prove execution, execution does not prove verification, and packaging does not authorize production promotion."
+  },
+  {
+    "doc_id": "agents",
+    "title": "Multi Agent Direction",
+    "text": "A later NALLAR multi agent portfolio project will coordinate specialized planner researcher evaluator and synthesis roles. The MCP and RAG layers provide reusable context and tool boundaries for that future agent system."
+  },
+  {
+    "doc_id": "voice",
+    "title": "Voice Study Coach Direction",
+    "text": "A later voice study coach workstream will combine speech input, study planning, question answering, feedback, and local AI components. The current RAG project provides deterministic retrieval and telemetry building blocks that can be reused in the voice experience."
+  }
+]
