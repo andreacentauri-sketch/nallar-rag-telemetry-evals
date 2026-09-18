@@ -9,7 +9,7 @@
     "python",
     "llm"
   ],
-  "license": "MANUAL_SELECTION_REQUIRED",
+  "license": "MIT",
   "recommended_pin": true,
   "repository_name": "nallar-rag-telemetry-evals",
   "visibility": "public_after_manual_security_review"
